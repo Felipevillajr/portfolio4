@@ -1,0 +1,14 @@
+@import "../../Partials/Colors.scss";
+@import "../../Partials/Partials.scss";
+
+.header1st {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50vh;
+  width: 50vw;
+  font-size: 3rem;
+  font-weight: bold;
+  z-index: 1;
+}
