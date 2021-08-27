@@ -1,0 +1,33 @@
+@import "../../Partials/Colors.scss";
+@import "../../Partials/Partials.scss";
+
+.about__section {
+  top: 10vh;
+  position: absolute;
+  background-color: rgba(216, 66, 66, 0);
+  height: 100vh;
+  width: 100vw;
+}
+
+.about {
+  padding: 2rem;
+
+  &-me {
+    position: relative;
+    top: 15vh;
+    height: 350vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: $theme_title;
+    @include for-desktop {
+      align-items: center;
+      font-size: 2rem;
+      padding: 5rem;
+    }
+  }
+}
+
+.me {
+  width: 50%;
+}
