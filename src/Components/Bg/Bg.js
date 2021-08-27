@@ -4,7 +4,7 @@ import "./Bg.scss";
 export default function Bg() {
   return (
     <div className="bg">
-      <div></div>
+      <div className="bg_filter"></div>
     </div>
   );
 }

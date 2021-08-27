@@ -1,0 +1,32 @@
+.footer {
+  height: 10rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: rgba(255, 0, 0, 0);
+  padding: 0rem;
+  text-align: center;
+  background-color: black;
+  color: white;
+
+  &__contact {
+    height: 40vh;
+    width: 100%;
+    font-size: 0.8rem;
+    border-bottom: 1px solid white;
+  }
+}
+
+.contact_title {
+  text-align: center;
+  height: 5rem;
+  width: 100%;
+}
+
+.footer__copy {
+  padding: 0.5rem;
+  width: 100%;
+  font-size: 0.7rem;
+}

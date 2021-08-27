@@ -1,1 +1,75 @@
+@import "../../Partials/Colors.scss";
+@import "../../Partials/Partials.scss";
 
+.home__section__1 {
+  top: 100%;
+  position: absolute;
+  background-color: rgba(216, 66, 66, 0);
+  height: 250vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.home__section__1 h3,
+h1 {
+  padding: 1rem;
+  color: $theme_title;
+}
+
+.home__name {
+  height: 50vh;
+  width: 100%;
+}
+
+.home__shape {
+  @include for-mobile {
+    position: relative;
+    top: 8vh;
+    background-color: $theme_shape;
+    width: 35%;
+    height: 3rem;
+    border-radius: 20px;
+    margin-left: 0.5rem;
+  }
+}
+
+.home__shape2 {
+  @include for-mobile {
+    position: relative;
+    top: 11vh;
+    background-color: $theme_shape;
+    width: 50%;
+    height: 2rem;
+    border-radius: 20px;
+    margin-left: 0.5rem;
+  }
+}
+.home__shape3 {
+  @include for-mobile {
+    position: relative;
+    top: 7vh;
+    background-color: $theme_shape;
+    width: 50%;
+    height: 2rem;
+    border-radius: 20px;
+    margin-left: 0.5rem;
+  }
+}
+
+.home__subtitle {
+  height: 10rem;
+}
+
+.home__para {
+  height: 5rem;
+}
+
+h3 {
+  height: 30vh;
+}
+
+.home__para2 {
+  height: 50vh;
+}
