@@ -1,6 +1,5 @@
 import React from "react";
 import "./Home.scss";
-import Header1st from "../../Components/Header1st/Header1st";
 import Bg from "../../Components/Bg/Bg";
 import { Parallax as Para } from "react-parallax";
 import typing from "../../Images/takingnotes.jpg";
@@ -10,7 +9,6 @@ import computer from "../../Images/computer_typing.jpg";
 export default function Home() {
   return (
     <>
-      <Header1st />
       <div className="home__section__1">
         <Para
           blur={1}
@@ -23,6 +21,9 @@ export default function Home() {
         </Para>
 
         <h3 className="home__subtitle">Web Developer/Web Designer</h3>
+        <h4 className="home__subtitle2">
+          Unique and Boutique Style Design/Development
+        </h4>
         <Para
           blur={1}
           bgImage={typing}
@@ -96,9 +97,11 @@ export default function Home() {
         </Para>
         <br />
 
-        <h3>Reliable Web Solutions</h3>
-        <h3>Engaging Designs</h3>
-        <h3>Digital Innovation</h3>
+        <h3>
+          Reliable Web Solutions<p>Engaging Designs</p>
+          <p>Digital Innovation</p>
+        </h3>
+
         <Para
           blur={1}
           bgImage={computer}
@@ -108,6 +111,13 @@ export default function Home() {
           <div className="home__para2"></div>
         </Para>
         <h3>Empower Your Business</h3>
+        <h3>
+          Bring cyberspace to your business and enpower yourself to focus on
+          growth. My goal is to provide full individualized service and support
+          for all web based technical needs. So you can generate more revenue
+          for your business.
+        </h3>
+        <br />
         <h3>Focus On Growth</h3>
       </div>
       <Bg />

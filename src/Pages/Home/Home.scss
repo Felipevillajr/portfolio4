@@ -2,7 +2,7 @@
 @import "../../Partials/Partials.scss";
 
 .home__section__1 {
-  top: 100%;
+  top: 10%;
   position: absolute;
   background-color: rgba(216, 66, 66, 0);
   height: 250vh;
@@ -13,8 +13,9 @@
 }
 
 .home__section__1 h3,
-h1 {
-  padding: 1rem;
+h1,
+h4 {
+  padding: 0.5rem;
   color: $theme_title;
 }
 
@@ -59,7 +60,12 @@ h1 {
 }
 
 .home__subtitle {
-  height: 10rem;
+  height: 5rem;
+  margin-top: 2rem;
+}
+
+.home__subtitle2 {
+  margin-bottom: 2rem;
 }
 
 .home__para {

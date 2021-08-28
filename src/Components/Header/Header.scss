@@ -2,11 +2,19 @@
 @import "../../Partials//Colors.scss";
 
 .header {
-  position: absolute;
-  background-color: rgba(255, 255, 255, 0);
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 10vh;
-  width: 100vw;
+  @include for-mobile {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+  }
+}
+
+.borderbot {
+  border-bottom: 1px solid $Links;
+  height: 1px;
+  width: 10%;
 }

@@ -5,10 +5,12 @@ import Home from "./Pages/Home/Home";
 import About from "./Pages/About/About";
 import Footer from "./Components/Footer/Footer";
 import Work from "./Pages/Work/Work";
+import Header from "./Components/Header/Header";
 
 function App() {
   return (
     <Router>
+      <Header />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/About-the-Creator" component={About} />

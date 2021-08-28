@@ -18,9 +18,9 @@ export default function About() {
             <div className="about-me-img1" alt="felipe villa"></div>
             <br />
             <p className="about-me-content">
-              Born and raised in <i>Miami,Florida</i> from two
-              Colombian-American Immigrants in the 90s. I am natively proficient
-              in both English and Spanish.
+              Born and raised in <i>Miami,Florida</i> from two Colombian
+              Immigrants in the 90s. I am natively proficient in both English
+              and Spanish.
             </p>
             <br />
             <h2>Life Long Learner</h2>
