@@ -35,6 +35,19 @@ export default function Home() {
           for your business.
         </p>
         <br />
+        <p className="bodytext">Some Examples of my Work</p>
+        <ul>
+          <li>
+            <a
+              className="bodylinks"
+              href="https://codesandbox.io/s/spacemanparallax-qut1r?file=/src/styles.css"
+              target="_blank"
+              rel="noreferrer"
+            >
+              CSS and Javascript Creations
+            </a>
+          </li>
+        </ul>
       </div>
       <Bg />
     </>
