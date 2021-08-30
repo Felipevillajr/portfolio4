@@ -1,4 +1,7 @@
+@import "../../Partials/Partials.scss";
+
 $mobile_height: 200vh;
+$desktop_height: 300vh;
 
 .bg {
   background-image: url(../../Images/forestpath.jpg);
@@ -8,10 +11,16 @@ $mobile_height: 200vh;
   width: 100%;
   height: $mobile_height;
   min-width: 320px;
+  @include for-desktop {
+    height: $desktop_height;
+  }
 }
 
 .bg_filter {
   background-color: rgba(0, 0, 0, 0.719);
   width: 100%;
   height: $mobile_height;
+  @include for-desktop {
+    height: $desktop_height;
+  }
 }
