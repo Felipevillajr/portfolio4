@@ -8,8 +8,6 @@ export default function Header() {
       <div className="borderbot"></div>
       <Link to="/">Home</Link>
       <div className="borderbot"></div>
-      <Link to="/Portfolio">Work</Link>
-      <div className="borderbot"></div>
       <Link to="/About-the-Creator">About</Link>
       <div className="borderbot"></div>
     </div>

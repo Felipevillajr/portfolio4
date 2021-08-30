@@ -5,7 +5,7 @@
   top: 10%;
   position: absolute;
   background-color: rgba(216, 66, 66, 0);
-  height: 250vh;
+  height: 150vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -19,20 +19,37 @@ h4 {
   color: $theme_title;
 }
 
+// .para1:hover {
+
+// }
+
 .home__name {
-  height: 50vh;
+  height: 2vh;
   width: 100%;
+  font-size: 2.5rem;
+  @include for-tablet {
+    font-size: 6rem;
+  }
+  @include for-desktop {
+    font-size: 9rem;
+  }
 }
 
 .home__shape {
   @include for-mobile {
     position: relative;
-    top: 8vh;
+    top: 7vh;
     background-color: $theme_shape;
-    width: 35%;
-    height: 3rem;
-    border-radius: 20px;
+    width: 80%;
+    height: 2.5rem;
+    border-radius: 10px;
     margin-left: 0.5rem;
+  }
+  @include for-tablet {
+    top: 11vh;
+    height: 6rem;
+    width: 69%;
+    border-radius: 20px;
   }
 }
 
@@ -61,11 +78,33 @@ h4 {
 
 .home__subtitle {
   height: 5rem;
+  font-size: 2rem;
   margin-top: 2rem;
+  @include for-tablet {
+    margin-top: 5rem;
+    height: 7rem;
+    font-size: 3rem;
+  }
+  @include for-desktop {
+    margin-top: 8rem;
+    font-size: 4rem;
+  }
 }
 
 .home__subtitle2 {
   margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 300;
+
+  @include for-tablet {
+    font-weight: 300;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  @include for-desktop {
+    font-size: 3rem;
+  }
 }
 
 .home__para {
@@ -76,6 +115,14 @@ h3 {
   height: 30vh;
 }
 
-.home__para2 {
-  height: 50vh;
+.bodytext {
+  @include for-tablet {
+    font-size: 2rem;
+    width: 80%;
+    padding: 4rem;
+    color: $theme_title;
+  }
+  @include for-desktop {
+    font-size: 3rem;
+  }
 }

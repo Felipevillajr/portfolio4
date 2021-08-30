@@ -11,6 +11,12 @@
     height: 10vh;
     width: 100%;
   }
+  @include for-tablet {
+    font-size: 2rem;
+  }
+  @include for-desktop {
+    font-size: 3rem;
+  }
 }
 
 .borderbot {

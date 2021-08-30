@@ -1,5 +1,5 @@
 .footer {
-  height: 10rem;
+  height: auto;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -12,7 +12,7 @@
   color: white;
 
   &__contact {
-    height: 40vh;
+    height: auto;
     width: 100%;
     font-size: 0.8rem;
     border-bottom: 1px solid white;
@@ -21,7 +21,7 @@
 
 .contact_title {
   text-align: center;
-  height: 5rem;
+  height: auto;
   width: 100%;
 }
 

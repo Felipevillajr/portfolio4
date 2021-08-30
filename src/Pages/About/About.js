@@ -11,9 +11,9 @@ export default function About() {
       <div className="about__section">
         <div className="about">
           <div className="about-me">
-            <h1>Hello!</h1>
+            <h1 className="hello">Hello!</h1>
             <br />
-            <h2>I am Felipe VIlla</h2>
+            <h2 className="about-name">I am Felipe VIlla</h2>
             <img className="me" src={me} alt="felipe villa" />
             <div className="about-me-img1" alt="felipe villa"></div>
             <br />
@@ -35,7 +35,7 @@ export default function About() {
                 </li>
                 <li>
                   Graduated <i>BrainStation</i> in 2021 with a degree in Web
-                  development with a focus on ReactJS and NodeJS.
+                  development
                 </li>
               </ul>
             </p>

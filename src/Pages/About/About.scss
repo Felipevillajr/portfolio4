@@ -14,12 +14,15 @@
 
   &-me {
     position: relative;
-    top: 15vh;
-    height: 300vh;
+    top: 0vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     color: $theme_title;
+    @include for-tablet {
+      align-items: center;
+    }
     @include for-desktop {
       align-items: center;
       font-size: 2rem;
@@ -28,6 +31,36 @@
   }
 }
 
+.about-name {
+  @include for-tablet {
+    font-size: 3rem;
+  }
+}
+
+.hello {
+  font-size: 5rem;
+}
+
 .me {
   width: 50%;
+}
+
+.about-me-content {
+  @include for-tablet {
+    font-size: 2rem;
+  }
+}
+
+h2 {
+  @include for-tablet {
+    font-size: 3rem;
+  }
+}
+
+.about-me-list li {
+  @include for-tablet {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
 }
