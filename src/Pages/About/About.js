@@ -28,13 +28,13 @@ export default function About() {
             <p>
               <ul className="about-me-list">
                 <li>
-                  I studied at <i>Florida International University</i> in 2010
+                  <i>Florida International University</i> &nbsp; in 2010
                 </li>
                 <li>
-                  <i>Miami-Dade College</i> in 2012
+                  <i>Miami-Dade College</i> &nbsp; 2012
                 </li>
                 <li>
-                  Graduated <i>BrainStation</i> in 2021 with a degree in Web
+                  <i>BrainStation</i> &nbsp; in 2021 with a degree in Web
                   development
                 </li>
               </ul>

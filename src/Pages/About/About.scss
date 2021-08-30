@@ -49,6 +49,9 @@
   @include for-tablet {
     font-size: 2rem;
   }
+  @include for-desktop {
+    font-size: 3rem;
+  }
 }
 
 h2 {
@@ -62,5 +65,8 @@ h2 {
     display: flex;
     justify-content: center;
     font-size: 1.5rem;
+  }
+  @include for-desktop {
+    font-size: 3rem;
   }
 }
