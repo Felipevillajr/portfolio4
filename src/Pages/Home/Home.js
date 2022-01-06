@@ -46,6 +46,15 @@ export default function Home() {
             >
               CSS and Javascript Creations
             </a>
+
+            <a
+              className="bodylinks"
+              href="https://pacific-retreat-51764.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Message Board
+            </a>
           </li>
         </ul>
       </div>
