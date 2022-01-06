@@ -19,21 +19,21 @@ export default function Home() {
           <h1 className="home__name">Felipe Villa Jr</h1>{" "}
           <h3 className="home__subtitle">Web Developer/Designer</h3>
           <h3 className="home__subtitle2">
-            <div>Unique and Boutique Style Design/Development</div>
+            {/* <div>Unique and Boutique Style Design/Development</div>
             <br />
             <div>Reliable Web Solutions </div>
             <br />
             <div>Engaging Digital Designs</div>
             <br />
-            <div>Empower Innovation and Your Business</div>
+            <div>Empower Innovation and Your Business</div> */}
           </h3>
         </Para>
-        <p className="bodytext">
+        {/* <p className="bodytext">
           Bring cyberspace to your business and enpower yourself to focus on
           growth. My goal is to provide full individualized service and support
           for all web based technical needs. So you can generate more revenue
           for your business.
-        </p>
+        </p> */}
         <br />
         <p className="bodytext">Some Examples of my Work</p>
         <ul>
