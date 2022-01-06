@@ -12,32 +12,39 @@ export default function Home() {
           contentClassName="para1"
           blur={1}
           bgImage={typing2}
-          bgImageAlt="typing on Computer"
+          bgImageAlt="leaves"
           strength={400}
         >
           <div className="home__shape"></div>
           <h1 className="home__name">Felipe Villa Jr</h1>{" "}
           <h3 className="home__subtitle">Web Developer/Designer</h3>
-          <h3 className="home__subtitle2">
-            {/* <div>Unique and Boutique Style Design/Development</div>
-            <br />
-            <div>Reliable Web Solutions </div>
-            <br />
-            <div>Engaging Digital Designs</div>
-            <br />
-            <div>Empower Innovation and Your Business</div> */}
-          </h3>
         </Para>
-        {/* <p className="bodytext">
-          Bring cyberspace to your business and enpower yourself to focus on
-          growth. My goal is to provide full individualized service and support
-          for all web based technical needs. So you can generate more revenue
-          for your business.
-        </p> */}
+        <p className="bodytext">Technology I use:</p>
+        <p className="bodytext">
+          <ul className="bodytext__list">
+            <p>React.JS</p>
+            <p>JavaScript</p>
+            <p>MySQL</p>
+            <p>CSS</p>
+            <p>Sass</p>
+            <p>Shopify</p>
+            <p>HTML5</p>
+          </ul>
+          <ul className="bodytext__list">
+            <p>Node.JS</p>
+            <p>GitHub</p>
+            <p>Heroku</p>
+            <p>REST API</p>
+            <p>SEO Services</p>
+            <p>Adobe Suite</p>
+            <p>WordPress</p>
+          </ul>
+        </p>
+
         <br />
         <p className="bodytext">Some Examples of my Work</p>
         <ul>
-          <li>
+          <li className="examples">
             <a
               className="bodylinks"
               href="https://codesandbox.io/s/spacemanparallax-qut1r?file=/src/styles.css"
@@ -58,6 +65,7 @@ export default function Home() {
           </li>
         </ul>
       </div>
+
       <Bg />
     </>
   );
